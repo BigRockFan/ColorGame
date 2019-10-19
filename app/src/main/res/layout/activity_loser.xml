@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#5f5f5f">
+
+    <TextView
+        android:text="GAME OVER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:id="@+id/textView2"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:textColor="#ba0505"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Score: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreFinal"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="30sp" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:layout_below="@+id/scoreFinal"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="91dp"
+        android:layout_alignEnd="@+id/textView2" />
+</RelativeLayout>

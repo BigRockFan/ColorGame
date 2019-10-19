@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#363f3f">
+
+    <TextView
+        android:text="AlterColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView4"
+        android:textColor="#0ed158"
+        android:textSize="75sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed" />
+
+    <Button
+        android:text="PLAY"
+        android:layout_width="300sp"
+        android:layout_height="90sp"
+        android:id="@+id/play"
+        android:background="#800000"
+        android:textColor="#0ed158"
+        android:elevation="0dp"
+        android:textSize="28sp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
