@@ -1,4 +1,4 @@
-# ColorGame
+# ColorSwitch
 Month long project for AP Computer Science A - android game
 
 At the end of the year, we were given an assignment called Operation: Create
